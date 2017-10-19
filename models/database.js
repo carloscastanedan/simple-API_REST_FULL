@@ -13,6 +13,7 @@ const sequelize = new Sequelize(
     {
         host: config.db.host,
         dialect: config.db.dialect
+        //logging: false
     }
 )
 
